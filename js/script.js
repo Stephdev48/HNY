@@ -88,6 +88,8 @@ function refreshJoke(){
 
 function start(){
     step1();
+    step2();
+
 }
 
 function step1(){
@@ -103,11 +105,45 @@ function step1(){
     let joke = document.getElementById("para1");
     joke.style.opacity = 1;
 
-    let image1 = document.getElementById("step1img");
-    image1.style.opacity = 1;
+    let image = document.getElementById("step1img");
+    image.style.opacity = 1;
 
     setTimeout(() =>{
         step1title.style.top = 0;
+        joke.style.top = 0;
+    },"1000");
+
+    setTimeout(() =>{
+        step1title.style.opacity = 0;
+        joke.style.opacity = 0;
+        image.style.opacity = 0;
+    },"3000");
+
+    setTimeout(() =>{
+      step1.style.display = none;
+    },"3500");
+    
+
+}
+
+function step2(){
+
+    console.log("test ok !!");
+    let step2 = document.getElementById("step2");
+    console.log(step2);
+    step2.style.opacity = 1;
+
+    let step2title = document.getElementById("step2_title");
+    step2title.style.opacity = 1;
+
+    let joke = document.getElementById("para2");
+    joke.style.opacity = 1;
+
+    let image = document.getElementById("step2img");
+    image.style.opacity = 1;
+
+    setTimeout(() =>{
+        step2title.style.top = 0;
         joke.style.top = 0;
     },"1000");
 
