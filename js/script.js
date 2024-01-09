@@ -84,3 +84,11 @@ function main(){
         })
 }
 
+
+
+function start(){
+    console.log("test ok !!");
+    let step1 = document.getElementById("step1");
+    console.log(step1);
+}
+
