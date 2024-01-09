@@ -42,7 +42,7 @@
 // var btn = document.querySelector("button");
 // btn.addEventListener("click", main);
 
-function main(){
+function refreshJoke(){
     fetch('https://api.chucknorris.io/jokes/random')
         .then(response => {return response.json()})
         .then((data)=>{
@@ -87,8 +87,28 @@ function main(){
 
 
 function start(){
+    step1();
+}
+
+function step1(){
+
     console.log("test ok !!");
     let step1 = document.getElementById("step1");
     console.log(step1);
-}
+    step1.style.opacity = 1;
 
+    let step1title = document.getElementById("step1_title");
+    step1title.style.opacity = 1;
+
+    let joke = document.getElementById("para1");
+    joke.style.opacity = 1;
+
+    let image1 = document.getElementById("step1img");
+    image1.style.opacity = 1;
+
+    setTimeout(() =>{
+        step1title.style.top = 0;
+        joke.style.top = 0;
+    },"1000");
+
+}

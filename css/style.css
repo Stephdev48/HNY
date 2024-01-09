@@ -27,43 +27,60 @@ section{
     justify-content: center;
 }
 .step1{
-    background-color: rgb(0, 255, 242);
+    background-image: url("../images/background_verres_bis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 5%;
     margin: 10%;
     border-radius: 250px;
-    border: solid 20px gold;
+    border: solid 10px gold;
     opacity: 0;
+    transition: all .5s;
 }
 .step2{
-    background-color: rgb(200, 255, 47);
+    background-image: url("../images/background_verres.jpg");
     padding: 5%;
     margin: 10%;
     border-radius: 250px;
-    border: solid 20px gold;
+    border: solid 10px gold;
 }
 .step3{
-    background-color: fuchsia;
+    background-image: url("../images/background_fireworks.jpg");
     padding: 5%;
     margin: 10%;
     border-radius: 250px;
-    border: solid 20px gold;
+    border: solid 10px gold;
 }
 .step4{
     background-color: rgb(0, 200, 250);
     padding: 5%;
     margin: 10%;
     border-radius: 250px;
-    border: solid 20px gold;
+    border: solid 10px gold;
 }
 .step5{
     background-color: rgb(82, 196, 7);
     padding: 5%;
     margin: 10%;
     border-radius: 250px;
-    border: solid 20px gold;
+    border: solid 10px gold;
+}
+#step1_title{
+    opacity: 0;
+    transition: all 1.9s;
+    position: relative;
+    top: -20px;
+}
+#para1{
+    opacity: 0;
+    transition: all 1.2s;
+    position: relative;
+    top: -20px;
 }
 section img{
     border: solid 10px black;
+    opacity: 0;
+    transition: all .8s;
     border-radius: 50px;
     max-width: 75%;
 }
@@ -86,6 +103,7 @@ section h2{
     font-size: 1.3em;
     font-weight: bold;
     border-radius: 25px;
+    cursor: pointer;
 }
 .stepinner{
     display: flex;
