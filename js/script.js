@@ -39,9 +39,7 @@
         })
 
 
-
 /* -------------bouton pour rafraîchir les facts !--------------*/
-
 function refreshJoke(){
     fetch('https://api.chucknorris.io/jokes/random')
         .then(response => {return response.json()})
