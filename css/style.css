@@ -35,35 +35,51 @@ section{
     border-radius: 250px;
     border: solid 10px gold;
     opacity: 0;
-    transition: all .5s;
+    transition: all 1s;
 }
 .step2{
     background-image: url("../images/background_verres.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 5%;
     margin: 10%;
     border-radius: 250px;
     border: solid 10px gold;
+    opacity: 0;
+    transition: all .5s;
 }
 .step3{
     background-image: url("../images/background_fireworks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 5%;
     margin: 10%;
     border-radius: 250px;
     border: solid 10px gold;
+    opacity: 0;
+    transition: all .5s;
 }
 .step4{
-    background-color: rgb(0, 200, 250);
+    background-image: url("../images/Christmas_Balls_Star_decoration_Snowflakes_537925_1280x853.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 5%;
     margin: 10%;
     border-radius: 250px;
     border: solid 10px gold;
+    opacity: 0;
+    transition: all .5s;
 }
 .step5{
-    background-color: rgb(82, 196, 7);
+    background-image: url("../images/background_fireworks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 5%;
     margin: 10%;
     border-radius: 250px;
     border: solid 10px gold;
+    opacity: 0;
+    transition: all .5s;
 }
 #step1_title{
     opacity: 0;
@@ -77,12 +93,60 @@ section{
     position: relative;
     top: -20px;
 }
+#step2_title{
+    opacity: 0;
+    transition: all 1.9s;
+    position: relative;
+    top: -20px;
+}
+#para2{
+    opacity: 0;
+    transition: all 1.2s;
+    position: relative;
+    top: -20px;
+}
+#step3_title{
+    opacity: 0;
+    transition: all 1.9s;
+    position: relative;
+    top: -20px;
+}
+#para3{
+    opacity: 0;
+    transition: all 1.2s;
+    position: relative;
+    top: -20px;
+}
+#step4_title{
+    opacity: 0;
+    transition: all 1.9s;
+    position: relative;
+    top: -20px;
+}
+#para4{
+    opacity: 0;
+    transition: all 1.2s;
+    position: relative;
+    top: -20px;
+}
+#step5_title{
+    opacity: 0;
+    transition: all 1.9s;
+    position: relative;
+    top: -20px;
+}
+#para5{
+    opacity: 0;
+    transition: all 1.2s;
+    position: relative;
+    top: -20px;
+}
 section img{
     border: solid 10px black;
     opacity: 0;
-    transition: all .8s;
+    transition: all 1.4s;
     border-radius: 50px;
-    max-width: 75%;
+    max-width: 0%;
 }
 section p{
     padding: 30px;
