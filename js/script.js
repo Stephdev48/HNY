@@ -41,37 +41,6 @@
 
 /* -------------bouton pour rafraîchir les facts !--------------*/
 function refreshJoke(){
-    fetch('https://api.chucknorris.io/jokes/random')
-        .then(response => {return response.json()})
-        .then((data)=>{
-            console.log(data);
-            let fill1 = document.getElementById('para1');
-            fill1.innerHTML=data.value;
-        })
-
-    fetch('https://api.chucknorris.io/jokes/random')
-        .then(response => {return response.json()})
-        .then((data)=>{
-            console.log(data);
-            let fill2 = document.getElementById('para2');
-            fill2.innerHTML=data.value;
-        })
-
-    fetch('https://api.chucknorris.io/jokes/random')
-        .then(response => {return response.json()})
-        .then((data)=>{
-            console.log(data);
-            let fill3 = document.getElementById('para3');
-            fill3.innerHTML=data.value;
-        })
-
-    fetch('https://api.chucknorris.io/jokes/random')
-        .then(response => {return response.json()})
-        .then((data)=>{
-            console.log(data);
-            let fill4 = document.getElementById('para4');
-            fill4.innerHTML=data.value;
-        })
 
     fetch('https://api.chucknorris.io/jokes/random')
         .then(response => {return response.json()})
@@ -263,15 +232,5 @@ function step5(){
         joke.style.top = 0;
         step5img.style["max-width"] = "60%";
     },"1000");
-
-    setTimeout(() =>{
-        step5title.style.opacity = 0;
-        joke.style.opacity = 0;
-        image.style.opacity = 0;
-    },"8000");
-
-    setTimeout(() =>{
-      step5.style.display = "none";
-    },"9000");
     
 }
