@@ -42,6 +42,9 @@
 // var btn = document.querySelector("button");
 // btn.addEventListener("click", main);
 
+
+/* -------------bouton pour rafraîchir les facts !--------------*/
+
 function refreshJoke(){
     fetch('https://api.chucknorris.io/jokes/random')
         .then(response => {return response.json()})
@@ -85,7 +88,7 @@ function refreshJoke(){
 }
 
 
-
+/*-------------séquence des cards---------------------*/
 function start(){
     step1();
     setTimeout(() =>{
