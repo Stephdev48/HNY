@@ -49,7 +49,7 @@ section{
     transition: all .5s;
 }
 .step3{
-    background-image: url("../images/background_fireworks.jpg");
+    background-image: url("../images/background_large.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1%;
