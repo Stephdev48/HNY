@@ -30,8 +30,8 @@ section{
     background-image: url("../images/background_verres_bis.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5%;
-    margin: 10%;
+    padding: 1%;
+    margin: 3%;
     border-radius: 250px;
     border: solid 10px gold;
     opacity: 0;
@@ -41,8 +41,8 @@ section{
     background-image: url("../images/background_verres.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5%;
-    margin: 10%;
+    padding: 1%;
+    margin: 3%;
     border-radius: 250px;
     border: solid 10px gold;
     opacity: 0;
@@ -52,8 +52,8 @@ section{
     background-image: url("../images/background_fireworks.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5%;
-    margin: 10%;
+    padding: 1%;
+    margin: 3%;
     border-radius: 250px;
     border: solid 10px gold;
     opacity: 0;
@@ -63,8 +63,8 @@ section{
     background-image: url("../images/Christmas_Balls_Star_decoration_Snowflakes_537925_1280x853.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5%;
-    margin: 10%;
+    padding: 1%;
+    margin: 3%;
     border-radius: 250px;
     border: solid 10px gold;
     opacity: 0;
@@ -74,8 +74,8 @@ section{
     background-image: url("../images/background_fireworks.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5%;
-    margin: 10%;
+    padding: 1%;
+    margin: 3%;
     border-radius: 250px;
     border: solid 10px gold;
     opacity: 0;
@@ -149,17 +149,17 @@ section img{
     max-width: 0%;
 }
 section p{
-    padding: 30px;
-    margin: 30px;
+    padding: 15px;
+    margin: 15px;
     border-radius: 25px;
-    font-size: 1.7em;
+    font-size: 1.3em;
     font-weight: 800;
     background-color: rgba(247, 246, 246, 0.6);
 }
 section h2{
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 800;
-    padding: 30px;
+    padding: 15px;
 }
 .stepinner button{
     height: 50px;
@@ -185,8 +185,3 @@ section h2{
 .step2, .step3, .step4, .step5{
     display: none;
 }
-/* @media (min-width: 1755px){
-    section img{
-        max-width: 1024px;
-    }
-} */

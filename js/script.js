@@ -39,9 +39,6 @@
         })
 
 
-// var btn = document.querySelector("button");
-// btn.addEventListener("click", main);
-
 
 /* -------------bouton pour rafraîchir les facts !--------------*/
 
@@ -106,6 +103,7 @@ function start(){
 
 }
 
+/*-----------fonctions de gestion des cards------------*/
 function step1(){
 
     console.log("test 1 ok !!");
@@ -125,7 +123,7 @@ function step1(){
     setTimeout(() =>{
         step1title.style.top = 0;
         joke.style.top = 0;
-        step1img.style["max-width"] = "75%";
+        step1img.style["max-width"] = "60%";
     },"1000");
 
     setTimeout(() =>{
@@ -160,7 +158,7 @@ function step2(){
     setTimeout(() =>{
         step2title.style.top = 0;
         joke.style.top = 0;
-        step2img.style["max-width"] = "75%";
+        step2img.style["max-width"] = "60%";
     },"1000");
 
     setTimeout(() =>{
@@ -195,7 +193,7 @@ function step3(){
     setTimeout(() =>{
         step3title.style.top = 0;
         joke.style.top = 0;
-        step3img.style["max-width"] = "75%";
+        step3img.style["max-width"] = "60%";
     },"1000");
 
     setTimeout(() =>{
@@ -230,7 +228,7 @@ function step4(){
     setTimeout(() =>{
         step4title.style.top = 0;
         joke.style.top = 0;
-        step4img.style["max-width"] = "75%";
+        step4img.style["max-width"] = "60%";
     },"1000");
 
     setTimeout(() =>{
@@ -265,7 +263,7 @@ function step5(){
     setTimeout(() =>{
         step5title.style.top = 0;
         joke.style.top = 0;
-        step5img.style["max-width"] = "75%";
+        step5img.style["max-width"] = "60%";
     },"1000");
 
     setTimeout(() =>{
